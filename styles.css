@@ -1,17 +1,16 @@
-/* Style for the paragraph with id="yellow" */
 #yellow {
   background-color: yellow;
-  border: 1px solid green;
+  border: 3px solid green;
 }
 
-/* Style for the paragraph with id="red" */
 #red {
   background-color: red;
-  border: 1px solid yellow;
+  /* This should be yellow to match the image */
+  border: 3px solid black;
 }
 
-/* Style for the paragraph with id="green" */
 #green {
   background-color: green;
-  border: 1px solid black;
+  /* This should be black to match the image */
+  border: 3px solid yellow;
 }
